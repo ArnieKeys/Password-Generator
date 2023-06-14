@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="interface">
+            <div class="theme-toggle">
+
+                <label for="theme">Mode</label>
+                <select id="theme">
+                    <option value="light">light</option>
+                    <option value="dark">dark</option>
+                </select>
+            </div>
+
+
+            <h1><span id="txt-color1">Generate a</span><br><span id="txt-color2">random password</span></h1>
+            <p>Never use an insecure password again</p>
+            <button class="generate" id="generate">Generate passwords</button>
+            <div class="input-box">
+                <div class="selectOptions">
+
+                    <input type="radio" class="radio" name="passwordType" value="letters" id="letters">
+                    <label for="letter" id="lo">Letters Only</label>
+
+                </div>
+                <div class="selectOptions">
+                    <input type="radio" class="radio" name="passwordType" value="numbersInc">
+                    <label for="number" id="ln">Letters and Numbers</label>
+                </div>
+                <div class="selectOptions">
+                    <input type="radio" class="radio" name="passwordType" value="special">
+                    <label for="special" id="ch">Special Characters</label>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="fields">
+                <input type="text" id="password1" value="">
+                <button class="copy" id="password1Btn">Copy</button>
+
+                <input type="text" id="password2" value="">
+                <button class="copy" id="password2Btn">Copy</button>
+            </div>
+            <input type="Number" value="15" min="6" max="15" id="length" name="length">
+            <label for="length">(password length)</label>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

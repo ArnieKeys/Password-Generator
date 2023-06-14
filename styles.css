@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 36rem;
+  height: 30rem;
+  padding: 50px;
+  background-color: antiquewhite;
+  border: 3px solid grey;
+  border-radius: 10px;
+}
+#txt-color1 {
+  color: green;
+}
+#txt-color2 {
+  color: black;
+}
+p {
+  color: green;
+}
+
+button {
+  color: white;
+  width: 10rem;
+  background: green;
+  border-radius: 5px;
+  padding: 5px 5px 5px 2px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+input {
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 16rem;
+  height: 2rem;
+  padding: 10px;
+  border-radius: 6px;
+  background: grey;
+  color: lightgreen;
+}
+select {
+  width: 4rem;
+  user-select: none;
+}
+.theme-toggle {
+  padding: 10px;
+  margin-top: 15px;
+  float: right;
+}
+label {
+  color: black;
+}
+.copy {
+  width: 4rem;
+  margin: 5px;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+.fields {
+  padding: o;
+  margin: 0;
+  margin-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.radio {
+  margin: 0;
+  padding: 0;
+  width: 1rem;
+  height: 1rem;
+  margin-right: 10px;
+}
+
+.selectOptions {
+  margin-bottom: 10px;
+}
+
+.input-box {
+  margin: 20px;
+}
+#length {
+  width: 5rem;
+  background: white;
+  color: black;
+  margin-top: 20px;
+  margin-left: 15px;
+}
